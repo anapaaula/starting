@@ -4,11 +4,11 @@ class Cube:
         self.x = number
         print('Object created!')
 
-    def calcula_cubo(self):
+    def calculate_cube(self):
         cube = self.x * self.x * self.x
         return 'Calculated cube :' + str(cube)
 
 
 creating_object = Cube(10)
-result = creating_object.calcula_cubo()
+result = creating_object.calculate_cube()
 print(result)
